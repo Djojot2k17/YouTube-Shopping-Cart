@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+	padding-top: 70px;
+}
+footer{
+	margin-top: 50px;
+}
+#limitWidth{
+	max-width: 400px;
+	margin: 0px auto;
+}
+.saved-image img{
+	max-height: 200px;
+}
+#login-form{
+	width: 50%;
+	height: 60%;
+	border: 2px solid black;
+	border-radius: 15px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+	margin: 7% auto;
+	padding: 15px;
+	background-color: white;
+}
+#add-user-btn{
+	margin-top: -35px;
+}
+#userForm{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.myTable{
+	max-width: 900px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.categoryForm{
+	max-width: 1000px;
+	margin: 0 auto;
+}

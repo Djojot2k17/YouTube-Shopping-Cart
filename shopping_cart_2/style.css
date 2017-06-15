@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body{
+	padding-top: 50px;
+}
+
+#headerWrapper{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 400px;
+	background-image: url('https://i.stack.imgur.com/kzwT7.png');
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+#logotext{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background-image: url('http://www.technozion.org/tz15/assets/mat/images/generic-logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50% 200px;
+	top: 50%;
+	margin-top: -100px;
+}
+#partial-headerWrapper{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 200px;
+	background-image: url('https://i.stack.imgur.com/kzwT7.png');
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+#partial-logotext{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background-image: url('http://www.technozion.org/tz15/assets/mat/images/generic-logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50% 200px;
+	top: 50%;
+	margin-top: -100px;
+}
+#speaker{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background-image: url('https://openclipart.org/download/217118/1428915526.svg');
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	top: 260px;
+	right: 50px;
+}
+#headphone{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background-image: url('http://4vector.com/i/free-vector-headphones-clip-art_114329_Headphones_clip_art_hight.png');
+	background-size: auto 180px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	top: 150px;
+	left: 50px;
+}
+footer{
+	margin-top: 50px;
+}
+.img-thumb{
+	width: auto;
+	max-height: 150px;
+	min-height: 150px;
+}
+fotorama__wrap{
+	width: 33%;
+	margin: 15px auto;
+}
+.form-control{
+	display: inline-block;
+}
+#add_product_button{
+	margin-top: -35px;
+}
+.myTable{
+	max-width: 900px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.totals-heading{
+	max-width: 900px;
+	margin: 0 auto;
+}
+hr{
+	max-width: 900px;
+}
+.checkOut{
+	max-width: 900px;
+	margin: 0 auto;
+}
+#cart_widget td,#recent_widget{
+	font-size: 12px;
+}
+#filter-form input[type=text]{
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+#filter-form button{
+	margin-top: 5px;
+} 
